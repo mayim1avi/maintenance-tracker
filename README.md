@@ -4,6 +4,11 @@ Mobile-first web app for a hotel / resort / restaurant. Staff report things that
 are broken or wrong ("calls"), with a photo, and the maintenance team tracks them
 to resolution. Hebrew RTL UI.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/mayim1avi/maintenance-tracker)
+
+> The button reads `render.yaml` from this repo. You'll be asked to set
+> `ADMIN_PASSWORD`; the persistent disk requires a paid (Starter) instance.
+
 ## Stack
 - **Server:** Node + TypeScript, Express, better-sqlite3, JWT auth, multer (photos)
 - **Client:** React + Vite + TypeScript, mobile-first RTL CSS
