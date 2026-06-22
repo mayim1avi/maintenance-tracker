@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+*.sqlite
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+server/uploads/*
+!server/uploads/.gitkeep
+.env
+.DS_Store
+*.log
